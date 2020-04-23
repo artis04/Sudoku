@@ -113,6 +113,7 @@
             this.btnNewGame = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnNote = new System.Windows.Forms.Button();
+            this.btn_check = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -1045,6 +1046,16 @@
             this.btnNote.UseVisualStyleBackColor = true;
             this.btnNote.Click += new System.EventHandler(this.btnNotes);
             // 
+            // btn_check
+            // 
+            this.btn_check.Location = new System.Drawing.Point(851, 386);
+            this.btn_check.Name = "btn_check";
+            this.btn_check.Size = new System.Drawing.Size(190, 136);
+            this.btn_check.TabIndex = 86;
+            this.btn_check.Text = "Check answer";
+            this.btn_check.UseVisualStyleBackColor = true;
+            this.btn_check.Click += new System.EventHandler(this.btn_check_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1135,6 +1146,7 @@
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.btn_check);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -1230,6 +1242,7 @@
         private System.Windows.Forms.Button btnNewGame;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnNote;
+        private System.Windows.Forms.Button btn_check;
     }
 }
 

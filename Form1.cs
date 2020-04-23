@@ -18,7 +18,7 @@ namespace Sudoku
         bool pencil = false;
         Font font1 = new Font("Calibri", 48);
         string ho;
-        List<Button> btnLabels = new List<Button> { };
+        List<Button> btnLabels = new List<Button>();
         public Form1()
         {
             InitializeComponent();
@@ -38,7 +38,16 @@ namespace Sudoku
                 if (c.Name != "btnNote")
                 {
                     c.BackColor = default(Color);
+                    if (btnLabels.Contains(c))
+                    {
+                        c.ForeColor = Color.FromArgb(0, 0, 0);
+                    }
+                    else
+                    {
+                        c.ForeColor = Color.FromArgb(0, 0, 255);
+                    }
                 }
+                
             }
         }
 
@@ -252,7 +261,7 @@ namespace Sudoku
 
         private void OpenLevels(object sender, EventArgs e)
         {
-            string[] lines = File.ReadAllLines(@"sudoku\levels\easy.txt");
+            string[] lines = File.ReadAllLines(@"sudoku\levels\levels.txt");
             List<string> Levels = new List<string> { };
             bool level = false;
             foreach (string line in lines)
@@ -302,6 +311,7 @@ namespace Sudoku
         private void btnNewGame_Click(object sender, EventArgs e)
         {
             OpenLevels(sender, e);
+            DefColor(sender, e);
         }
 
 
@@ -309,7 +319,7 @@ namespace Sudoku
         {
             if (pencil)
             {
-                font1 = new Font("Calibri", 48);
+                font1 = new Font("Calibri", 48, FontStyle.Bold);
                 btnNote.BackColor = default(Color);
                 pencil = false;
             }
@@ -321,5 +331,71 @@ namespace Sudoku
             }
         }
 
+        private void btn_check_Click(object sender, EventArgs e)
+        {
+
+            string[] lines = File.ReadAllLines(@"sudoku\levels\Answers.txt");
+            List<string> Results = new List<string> { };
+            bool level = false;
+            foreach (string line in lines)
+            {
+                if (level)
+                {
+                    Results.Add(line);
+                    level = false;
+                }
+                try
+                {
+                    if (line.Substring(0, 5) == "Level")
+                    {
+                        level = true;
+                    }
+                }
+                catch { }
+            }
+
+            // In list Levels is loaded all available levels
+            string ActiveLevel = Results[0];
+            List<string> Result = ActiveLevel.Split(',').ToList();
+            List<string> Answer = new List<string>();
+            sbyte k = 1;
+            foreach (Control c in this.Controls)
+            {
+                if (k <= 81)
+                {
+                    Console.WriteLine(c.Text);
+                    Answer.Add(c.Text);
+                }
+                k++;
+            }
+
+            Console.WriteLine("#########");
+            Console.WriteLine(Answer.Count);
+            Console.WriteLine(Result.Count);
+
+            k = 0;
+            bool incorrect = false;
+            while(k < 81)
+            {
+                if (Answer[k] != Result[k])
+                {
+                    incorrect = true;
+                }
+                k++;
+            }
+            if (incorrect)
+            {
+                MessageBox.Show("There has been mistake");
+            }
+            else
+            {
+                MessageBox.Show("Congratulations, No mistakes!");
+            }
+            
+            if (Answer.Equals(Result))
+            {
+                MessageBox.Show("Congratolations");
+            }
+        }
     }
 }
