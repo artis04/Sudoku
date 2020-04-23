@@ -18,6 +18,7 @@ namespace Sudoku
         bool pencil = false;
         Font font1 = new Font("Calibri", 48);
         string ho;
+        List<Button> btnLabels = new List<Button> { };
         public Form1()
         {
             InitializeComponent();
@@ -53,6 +54,9 @@ namespace Sudoku
             {
                 foreach (var butn in active)
                 {
+                    if (btnLabels.Contains(butn)){
+                        return;
+                    }
                     butn.Font = font1;
                     if (e.KeyCode == Keys.D1)
                     {
@@ -258,20 +262,24 @@ namespace Sudoku
                     Levels.Add(line);
                     level = false;
                 }
-                if (line.Substring(0, 5) == "Level")
+                try
                 {
-                    level = true;
+                    if (line.Substring(0, 5) == "Level")
+                    {
+                        level = true;
+                    }
                 }
+                catch { }
             }
 
             // In list Levels is loaded all available levels
-            string ActiveLevel = Levels[1];
-
+            string ActiveLevel = Levels[0];
             List<string> easy = ActiveLevel.Split(',').ToList();
 
             sbyte i = 0;
             foreach (Control c in this.Controls)
             {
+                Button button = c as Button;
                 try
                 {
                     c.Text = easy[i];
@@ -279,41 +287,21 @@ namespace Sudoku
                     {
                         c.Text = "";
                     }
+                    else
+                    {
+                        btnLabels.Add(button);
+                    }
                     i++;
                 }
-                catch (Exception g)
-                {
-
+                catch
+                {   
                 }
-
             }
         }
 
         private void btnNewGame_Click(object sender, EventArgs e)
         {
-
             OpenLevels(sender, e);
-/*            List<int> easy = new List<int>() { 2, 3, 7 };
-           
-            sbyte i = 0;
-            foreach (Control c in this.Controls)
-            {
-                try
-                {
-                    c.Text = easy[i].ToString();
-                    if (c.Text == "0")
-                    {
-                        c.Text = "";
-                    }
-                    i++;
-                }
-                catch(Exception g)
-                {
-
-                }
-                
-            }*/
-
         }
 
 
