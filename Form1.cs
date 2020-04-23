@@ -14,6 +14,8 @@ namespace Sudoku
     {
         List<Button> active = new List<Button>();
         bool exists;
+        bool pencil = false;
+        Font font1 = new Font("Calibri", 48);
         public Form1()
         {
             InitializeComponent();
@@ -22,10 +24,11 @@ namespace Sudoku
         private void Form1_Load(object sender, EventArgs e)
         {
             pictureBox1.Image = Image.FromFile(@"Sudoku\photos\sudoku_grid.png");
-            Mark(sender, e);
+            DefColor(sender, e);
+            btnNote.BackColor = default(Color);
         }
 
-        public void Mark(object sender, EventArgs e)
+        public void DefColor(object sender, EventArgs e)
         {
             r1c1.BackColor = default(Color);
             r1c2.BackColor = default(Color);
@@ -67,6 +70,7 @@ namespace Sudoku
         {
             foreach (var butn in active)
             {
+                butn.Font = font1;
                 if(e.KeyCode == Keys.D1)
                 {
                     butn.Text = "1";
@@ -103,6 +107,17 @@ namespace Sudoku
                 {
                     butn.Text = "9";
                 }
+                else if (e.KeyCode == Keys.Back || e.KeyCode == Keys.Delete || e.KeyCode == Keys.D0)
+                {
+                    butn.Text = "";
+                }
+                else if (e.KeyCode == Keys.Tab)
+                {
+                    btnNotes(sender, e);
+                }
+
+
+
             }
           
 
@@ -132,7 +147,7 @@ namespace Sudoku
             {
                 active.Clear();
                 active.Add(button);
-                Mark(sender, e);
+                DefColor(sender, e);
                 button.BackColor = Color.FromArgb(255, 255, 0);
             }
         }
@@ -140,6 +155,22 @@ namespace Sudoku
         private void btnNewGame_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnNotes(object sender, EventArgs e)
+        {
+            if (pencil)
+            {
+                font1 = new Font("Calibri", 48);
+                btnNote.BackColor = default(Color);
+                pencil = false;
+            }
+            else
+            {   
+                font1 = new Font("Calibri", 18);
+                btnNote.BackColor = Color.Lime;
+                pencil = true;
+            }
         }
     }
 }

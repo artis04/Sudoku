@@ -112,6 +112,7 @@
             this.button81 = new System.Windows.Forms.Button();
             this.btnNewGame = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
+            this.btnNote = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -587,7 +588,7 @@
             // button46
             // 
             this.button46.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button46.Location = new System.Drawing.Point(702, 293);
+            this.button46.Location = new System.Drawing.Point(702, 292);
             this.button46.Name = "button46";
             this.button46.Size = new System.Drawing.Size(79, 79);
             this.button46.TabIndex = 37;
@@ -596,7 +597,7 @@
             // button47
             // 
             this.button47.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button47.Location = new System.Drawing.Point(620, 293);
+            this.button47.Location = new System.Drawing.Point(620, 292);
             this.button47.Name = "button47";
             this.button47.Size = new System.Drawing.Size(79, 79);
             this.button47.TabIndex = 36;
@@ -605,7 +606,7 @@
             // button48
             // 
             this.button48.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button48.Location = new System.Drawing.Point(542, 293);
+            this.button48.Location = new System.Drawing.Point(542, 292);
             this.button48.Name = "button48";
             this.button48.Size = new System.Drawing.Size(75, 79);
             this.button48.TabIndex = 35;
@@ -614,7 +615,7 @@
             // button49
             // 
             this.button49.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button49.Location = new System.Drawing.Point(459, 293);
+            this.button49.Location = new System.Drawing.Point(459, 292);
             this.button49.Name = "button49";
             this.button49.Size = new System.Drawing.Size(79, 79);
             this.button49.TabIndex = 34;
@@ -623,7 +624,7 @@
             // button50
             // 
             this.button50.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button50.Location = new System.Drawing.Point(377, 293);
+            this.button50.Location = new System.Drawing.Point(377, 292);
             this.button50.Name = "button50";
             this.button50.Size = new System.Drawing.Size(79, 79);
             this.button50.TabIndex = 33;
@@ -632,7 +633,7 @@
             // button51
             // 
             this.button51.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button51.Location = new System.Drawing.Point(295, 293);
+            this.button51.Location = new System.Drawing.Point(295, 292);
             this.button51.Name = "button51";
             this.button51.Size = new System.Drawing.Size(79, 79);
             this.button51.TabIndex = 32;
@@ -641,7 +642,7 @@
             // button52
             // 
             this.button52.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button52.Location = new System.Drawing.Point(210, 293);
+            this.button52.Location = new System.Drawing.Point(210, 292);
             this.button52.Name = "button52";
             this.button52.Size = new System.Drawing.Size(79, 79);
             this.button52.TabIndex = 31;
@@ -651,7 +652,7 @@
             // button53
             // 
             this.button53.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button53.Location = new System.Drawing.Point(129, 293);
+            this.button53.Location = new System.Drawing.Point(129, 292);
             this.button53.Name = "button53";
             this.button53.Size = new System.Drawing.Size(79, 79);
             this.button53.TabIndex = 30;
@@ -661,7 +662,7 @@
             // button54
             // 
             this.button54.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button54.Location = new System.Drawing.Point(46, 293);
+            this.button54.Location = new System.Drawing.Point(46, 292);
             this.button54.Name = "button54";
             this.button54.Size = new System.Drawing.Size(79, 79);
             this.button54.TabIndex = 29;
@@ -930,11 +931,22 @@
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
             // 
+            // btnNote
+            // 
+            this.btnNote.Location = new System.Drawing.Point(821, 207);
+            this.btnNote.Name = "btnNote";
+            this.btnNote.Size = new System.Drawing.Size(210, 120);
+            this.btnNote.TabIndex = 85;
+            this.btnNote.Text = "Notes";
+            this.btnNote.UseVisualStyleBackColor = true;
+            this.btnNote.Click += new System.EventHandler(this.btnNotes);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1141, 821);
+            this.Controls.Add(this.btnNote);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.button55);
@@ -1113,6 +1125,7 @@
         private System.Windows.Forms.Button button81;
         private System.Windows.Forms.Button btnNewGame;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnNote;
     }
 }
 
