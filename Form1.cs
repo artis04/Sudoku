@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Sudoku
 {
@@ -26,7 +27,6 @@ namespace Sudoku
         {
             pictureBox1.Image = Image.FromFile(@"Sudoku\photos\sudoku_grid.png");
             DefColor(sender, e);
-            Console.WriteLine(r1c1.BackColor);
             btnNote.BackColor = default(Color);
         }
 
@@ -246,10 +246,76 @@ namespace Sudoku
             }
         }
 
+        private void OpenLevels(object sender, EventArgs e)
+        {
+            string[] lines = File.ReadAllLines(@"sudoku\levels\easy.txt");
+            List<string> Levels = new List<string> { };
+            bool level = false;
+            foreach (string line in lines)
+            {
+                if (level)
+                {
+                    Levels.Add(line);
+                    level = false;
+                }
+                if (line.Substring(0, 5) == "Level")
+                {
+                    level = true;
+                }
+            }
+
+            // In list Levels is loaded all available levels
+            string ActiveLevel = Levels[1];
+
+            List<string> easy = ActiveLevel.Split(',').ToList();
+
+            sbyte i = 0;
+            foreach (Control c in this.Controls)
+            {
+                try
+                {
+                    c.Text = easy[i];
+                    if (c.Text == "0")
+                    {
+                        c.Text = "";
+                    }
+                    i++;
+                }
+                catch (Exception g)
+                {
+
+                }
+
+            }
+        }
+
         private void btnNewGame_Click(object sender, EventArgs e)
         {
 
+            OpenLevels(sender, e);
+/*            List<int> easy = new List<int>() { 2, 3, 7 };
+           
+            sbyte i = 0;
+            foreach (Control c in this.Controls)
+            {
+                try
+                {
+                    c.Text = easy[i].ToString();
+                    if (c.Text == "0")
+                    {
+                        c.Text = "";
+                    }
+                    i++;
+                }
+                catch(Exception g)
+                {
+
+                }
+                
+            }*/
+
         }
+
 
         private void btnNotes(object sender, EventArgs e)
         {
