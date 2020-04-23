@@ -16,6 +16,7 @@ namespace Sudoku
         bool exists;
         bool pencil = false;
         Font font1 = new Font("Calibri", 48);
+        string ho;
         public Form1()
         {
             InitializeComponent();
@@ -25,39 +26,19 @@ namespace Sudoku
         {
             pictureBox1.Image = Image.FromFile(@"Sudoku\photos\sudoku_grid.png");
             DefColor(sender, e);
+            Console.WriteLine(r1c1.BackColor);
             btnNote.BackColor = default(Color);
         }
 
         public void DefColor(object sender, EventArgs e)
         {
-            r1c1.BackColor = default(Color);
-            r1c2.BackColor = default(Color);
-            r1c3.BackColor = default(Color);
-            r1c4.BackColor = default(Color);
-            r1c5.BackColor = default(Color);
-            r1c6.BackColor = default(Color);
-            r1c7.BackColor = default(Color);
-            r1c8.BackColor = default(Color);
-            r1c9.BackColor = default(Color);
-            r2c1.BackColor = default(Color);
-            r2c2.BackColor = default(Color);
-            r2c3.BackColor = default(Color);
-            r2c4.BackColor = default(Color);
-            r2c5.BackColor = default(Color);
-            r2c6.BackColor = default(Color);
-            r2c7.BackColor = default(Color);
-            r2c8.BackColor = default(Color);
-            r2c9.BackColor = default(Color);
-            r3c1.BackColor = default(Color);
-            r3c2.BackColor = default(Color);
-            r3c3.BackColor = default(Color);
-            r3c4.BackColor = default(Color);
-            r3c5.BackColor = default(Color);
-            r3c6.BackColor = default(Color);
-            r3c7.BackColor = default(Color);
-            r3c8.BackColor = default(Color);
-            r3c9.BackColor = default(Color);
-
+            foreach (Control c in this.Controls)
+            {
+                if (c.Name != "btnNote")
+                {
+                    c.BackColor = default(Color);
+                }
+            }
         }
 
 
@@ -68,60 +49,173 @@ namespace Sudoku
 
         private void place(object sender, KeyEventArgs e)
         {
-            foreach (var butn in active)
+            if (!pencil)
             {
-                butn.Font = font1;
-                if(e.KeyCode == Keys.D1)
+                foreach (var butn in active)
                 {
-                    butn.Text = "1";
+                    butn.Font = font1;
+                    if (e.KeyCode == Keys.D1)
+                    {
+                        butn.Text = "1";
+                    }
+                    else if (e.KeyCode == Keys.D2)
+                    {
+                        butn.Text = "2";
+                    }
+                    else if (e.KeyCode == Keys.D3)
+                    {
+                        butn.Text = "3";
+                    }
+                    else if (e.KeyCode == Keys.D4)
+                    {
+                        butn.Text = "4";
+                    }
+                    else if (e.KeyCode == Keys.D5)
+                    {
+                        butn.Text = "5";
+                    }
+                    else if (e.KeyCode == Keys.D6)
+                    {
+                        butn.Text = "6";
+                    }
+                    else if (e.KeyCode == Keys.D7)
+                    {
+                        butn.Text = "7";
+                    }
+                    else if (e.KeyCode == Keys.D8)
+                    {
+                        butn.Text = "8";
+                    }
+                    else if (e.KeyCode == Keys.D9)
+                    {
+                        butn.Text = "9";
+                    }
+                    else if (e.KeyCode == Keys.Back || e.KeyCode == Keys.Delete || e.KeyCode == Keys.D0)
+                    {
+                        butn.Text = "";
+                    }
+                    else if (e.KeyCode == Keys.Space)
+                    {
+                        btnNotes(sender, e);
+                    }
                 }
-                else if (e.KeyCode == Keys.D2)
-                {
-                    butn.Text = "2";
-                }
-                else if (e.KeyCode == Keys.D3)
-                {
-                    butn.Text = "3";
-                }
-                else if (e.KeyCode == Keys.D4)
-                {
-                    butn.Text = "4";
-                }
-                else if (e.KeyCode == Keys.D5)
-                {
-                    butn.Text = "5";
-                }
-                else if (e.KeyCode == Keys.D6)
-                {
-                    butn.Text = "6";
-                }
-                else if (e.KeyCode == Keys.D7)
-                {
-                    butn.Text = "7";
-                }
-                else if (e.KeyCode == Keys.D8)
-                {
-                    butn.Text = "8";
-                }
-                else if (e.KeyCode == Keys.D9)
-                {
-                    butn.Text = "9";
-                }
-                else if (e.KeyCode == Keys.Back || e.KeyCode == Keys.Delete || e.KeyCode == Keys.D0)
-                {
-                    butn.Text = "";
-                }
-                else if (e.KeyCode == Keys.Tab)
-                {
-                    btnNotes(sender, e);
-                }
-
-
-
             }
-          
-
-
+            else
+            {
+                foreach(var butn in active)
+                {
+                    butn.Font = font1;
+                    if (e.KeyCode == Keys.D1)
+                    {
+                        if (butn.Text.Contains("1"))
+                        {
+                            ho = butn.Text.Replace("1", "");
+                            butn.Text = ho;
+                        }
+                        else
+                        {
+                            butn.Text = butn.Text + "1";
+                        }
+                    }
+                    else if (e.KeyCode == Keys.D2)
+                    {
+                        if (butn.Text.Contains("2"))
+                        {
+                            ho = butn.Text.Replace("2", "");
+                            butn.Text = ho;
+                        }
+                        else
+                        {
+                            butn.Text = butn.Text + "2";
+                        }
+                    }
+                    else if (e.KeyCode == Keys.D3)
+                    {
+                        if (butn.Text.Contains("3"))
+                        {
+                            string ho = butn.Text.Replace("3", "");
+                            butn.Text = ho;
+                        }
+                        else
+                        {
+                            butn.Text = butn.Text + "3";
+                        }
+                    }
+                    else if (e.KeyCode == Keys.D4)
+                    {
+                        if (butn.Text.Contains("4"))
+                        {
+                            string ho = butn.Text.Replace("4", "");
+                            butn.Text = ho;
+                        }
+                        else
+                        {
+                            butn.Text = butn.Text + "4";
+                        }
+                    }
+                    else if (e.KeyCode == Keys.D5)
+                    {
+                        if (butn.Text.Contains("5"))
+                        {
+                            string ho = butn.Text.Replace("5", "");
+                            butn.Text = ho;
+                        }
+                        else
+                        {
+                            butn.Text = butn.Text + "5";
+                        }
+                    }
+                    else if (e.KeyCode == Keys.D6)
+                    {
+                        if (butn.Text.Contains("6"))
+                        {
+                            string ho = butn.Text.Replace("6", "");
+                            butn.Text = ho;
+                        }
+                        else
+                        {
+                            butn.Text = butn.Text + "6";
+                        }
+                    }
+                    else if (e.KeyCode == Keys.D7)
+                    {
+                        if (butn.Text.Contains("7"))
+                        {
+                            string ho = butn.Text.Replace("7", "");
+                            butn.Text = ho;
+                        }
+                        else
+                        {
+                            butn.Text = butn.Text + "7";
+                        }
+                    }
+                    else if (e.KeyCode == Keys.D8)
+                    {
+                        if (butn.Text.Contains("8"))
+                        {
+                            string ho = butn.Text.Replace("8", "");
+                            butn.Text = ho;
+                        }
+                        else
+                        {
+                            butn.Text = butn.Text + "8";
+                        }
+                    }
+                    else if (e.KeyCode == Keys.D9)
+                    {
+                        if (butn.Text.Contains("9"))
+                        {
+                            string ho = butn.Text.Replace("9", "");
+                            butn.Text = ho;
+                        }
+                        else
+                        {
+                            butn.Text = butn.Text + "9";
+                        }
+                    }
+                }
+            }
+            
         }
 
 
@@ -139,7 +233,7 @@ namespace Sudoku
                 else
                 {
                     active.Add(button);
-                    button.BackColor = Color.FromArgb(255, 255, 0);
+                    button.BackColor = Color.FromArgb(255, 229, 117);
                 }
                 
             }
@@ -148,7 +242,7 @@ namespace Sudoku
                 active.Clear();
                 active.Add(button);
                 DefColor(sender, e);
-                button.BackColor = Color.FromArgb(255, 255, 0);
+                button.BackColor = Color.FromArgb(255, 229, 117);
             }
         }
 
@@ -167,10 +261,11 @@ namespace Sudoku
             }
             else
             {   
-                font1 = new Font("Calibri", 18);
+                font1 = new Font("Calibri", 12);
                 btnNote.BackColor = Color.Lime;
                 pencil = true;
             }
         }
+
     }
 }

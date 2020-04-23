@@ -56,60 +56,60 @@
             this.r3c3 = new System.Windows.Forms.Button();
             this.r3c2 = new System.Windows.Forms.Button();
             this.r3c1 = new System.Windows.Forms.Button();
-            this.button28 = new System.Windows.Forms.Button();
-            this.button29 = new System.Windows.Forms.Button();
-            this.button30 = new System.Windows.Forms.Button();
-            this.button31 = new System.Windows.Forms.Button();
-            this.button32 = new System.Windows.Forms.Button();
-            this.button33 = new System.Windows.Forms.Button();
-            this.button34 = new System.Windows.Forms.Button();
-            this.button35 = new System.Windows.Forms.Button();
-            this.button36 = new System.Windows.Forms.Button();
-            this.button37 = new System.Windows.Forms.Button();
-            this.button38 = new System.Windows.Forms.Button();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
-            this.button43 = new System.Windows.Forms.Button();
-            this.button44 = new System.Windows.Forms.Button();
-            this.button45 = new System.Windows.Forms.Button();
-            this.button46 = new System.Windows.Forms.Button();
-            this.button47 = new System.Windows.Forms.Button();
-            this.button48 = new System.Windows.Forms.Button();
-            this.button49 = new System.Windows.Forms.Button();
-            this.button50 = new System.Windows.Forms.Button();
-            this.button51 = new System.Windows.Forms.Button();
-            this.button52 = new System.Windows.Forms.Button();
-            this.button53 = new System.Windows.Forms.Button();
-            this.button54 = new System.Windows.Forms.Button();
-            this.button55 = new System.Windows.Forms.Button();
-            this.button56 = new System.Windows.Forms.Button();
-            this.button57 = new System.Windows.Forms.Button();
-            this.button58 = new System.Windows.Forms.Button();
-            this.button59 = new System.Windows.Forms.Button();
-            this.button60 = new System.Windows.Forms.Button();
-            this.button61 = new System.Windows.Forms.Button();
-            this.button62 = new System.Windows.Forms.Button();
-            this.button63 = new System.Windows.Forms.Button();
-            this.button64 = new System.Windows.Forms.Button();
-            this.button65 = new System.Windows.Forms.Button();
-            this.button66 = new System.Windows.Forms.Button();
-            this.button67 = new System.Windows.Forms.Button();
-            this.button68 = new System.Windows.Forms.Button();
-            this.button69 = new System.Windows.Forms.Button();
-            this.button70 = new System.Windows.Forms.Button();
-            this.button71 = new System.Windows.Forms.Button();
-            this.button72 = new System.Windows.Forms.Button();
-            this.button73 = new System.Windows.Forms.Button();
-            this.button74 = new System.Windows.Forms.Button();
-            this.button75 = new System.Windows.Forms.Button();
-            this.button76 = new System.Windows.Forms.Button();
-            this.button77 = new System.Windows.Forms.Button();
-            this.button78 = new System.Windows.Forms.Button();
-            this.button79 = new System.Windows.Forms.Button();
-            this.button80 = new System.Windows.Forms.Button();
-            this.button81 = new System.Windows.Forms.Button();
+            this.r6c9 = new System.Windows.Forms.Button();
+            this.r6c8 = new System.Windows.Forms.Button();
+            this.r6c7 = new System.Windows.Forms.Button();
+            this.r6c6 = new System.Windows.Forms.Button();
+            this.r6c5 = new System.Windows.Forms.Button();
+            this.r6c4 = new System.Windows.Forms.Button();
+            this.r6c3 = new System.Windows.Forms.Button();
+            this.r6c2 = new System.Windows.Forms.Button();
+            this.r6c1 = new System.Windows.Forms.Button();
+            this.r5c9 = new System.Windows.Forms.Button();
+            this.r5c8 = new System.Windows.Forms.Button();
+            this.r5c7 = new System.Windows.Forms.Button();
+            this.r5c6 = new System.Windows.Forms.Button();
+            this.r5c5 = new System.Windows.Forms.Button();
+            this.r5c4 = new System.Windows.Forms.Button();
+            this.r5c3 = new System.Windows.Forms.Button();
+            this.r5c2 = new System.Windows.Forms.Button();
+            this.r5c1 = new System.Windows.Forms.Button();
+            this.r4c9 = new System.Windows.Forms.Button();
+            this.r4c8 = new System.Windows.Forms.Button();
+            this.r4c7 = new System.Windows.Forms.Button();
+            this.r4c6 = new System.Windows.Forms.Button();
+            this.r4c5 = new System.Windows.Forms.Button();
+            this.r4c4 = new System.Windows.Forms.Button();
+            this.r4c3 = new System.Windows.Forms.Button();
+            this.r4c2 = new System.Windows.Forms.Button();
+            this.r4c1 = new System.Windows.Forms.Button();
+            this.r9c9 = new System.Windows.Forms.Button();
+            this.r9c8 = new System.Windows.Forms.Button();
+            this.r9c7 = new System.Windows.Forms.Button();
+            this.r9c6 = new System.Windows.Forms.Button();
+            this.r9c5 = new System.Windows.Forms.Button();
+            this.r9c4 = new System.Windows.Forms.Button();
+            this.r9c3 = new System.Windows.Forms.Button();
+            this.r9c2 = new System.Windows.Forms.Button();
+            this.r9c1 = new System.Windows.Forms.Button();
+            this.r8c9 = new System.Windows.Forms.Button();
+            this.r8c8 = new System.Windows.Forms.Button();
+            this.r8c7 = new System.Windows.Forms.Button();
+            this.r8c6 = new System.Windows.Forms.Button();
+            this.r8c5 = new System.Windows.Forms.Button();
+            this.r8c4 = new System.Windows.Forms.Button();
+            this.r8c3 = new System.Windows.Forms.Button();
+            this.r8c2 = new System.Windows.Forms.Button();
+            this.r8c1 = new System.Windows.Forms.Button();
+            this.r7c9 = new System.Windows.Forms.Button();
+            this.r7c8 = new System.Windows.Forms.Button();
+            this.r7c7 = new System.Windows.Forms.Button();
+            this.r7c6 = new System.Windows.Forms.Button();
+            this.r7c5 = new System.Windows.Forms.Button();
+            this.r7c4 = new System.Windows.Forms.Button();
+            this.r7c3 = new System.Windows.Forms.Button();
+            this.r7c2 = new System.Windows.Forms.Button();
+            this.r7c1 = new System.Windows.Forms.Button();
             this.btnNewGame = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnNote = new System.Windows.Forms.Button();
@@ -422,495 +422,599 @@
             this.r3c1.Click += new System.EventHandler(this.btn_Click);
             this.r3c1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
             // 
-            // button28
-            // 
-            this.button28.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button28.Location = new System.Drawing.Point(702, 456);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(79, 79);
-            this.button28.TabIndex = 55;
-            this.button28.UseVisualStyleBackColor = true;
-            // 
-            // button29
-            // 
-            this.button29.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button29.Location = new System.Drawing.Point(620, 456);
-            this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(79, 79);
-            this.button29.TabIndex = 54;
-            this.button29.UseVisualStyleBackColor = true;
-            // 
-            // button30
-            // 
-            this.button30.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button30.Location = new System.Drawing.Point(542, 456);
-            this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(75, 79);
-            this.button30.TabIndex = 53;
-            this.button30.UseVisualStyleBackColor = true;
-            // 
-            // button31
-            // 
-            this.button31.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button31.Location = new System.Drawing.Point(459, 456);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(79, 79);
-            this.button31.TabIndex = 52;
-            this.button31.UseVisualStyleBackColor = true;
-            // 
-            // button32
-            // 
-            this.button32.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button32.Location = new System.Drawing.Point(377, 456);
-            this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(79, 79);
-            this.button32.TabIndex = 51;
-            this.button32.UseVisualStyleBackColor = true;
-            // 
-            // button33
-            // 
-            this.button33.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button33.Location = new System.Drawing.Point(295, 456);
-            this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(79, 79);
-            this.button33.TabIndex = 50;
-            this.button33.UseVisualStyleBackColor = true;
-            // 
-            // button34
-            // 
-            this.button34.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button34.Location = new System.Drawing.Point(210, 456);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(79, 79);
-            this.button34.TabIndex = 49;
-            this.button34.UseVisualStyleBackColor = true;
-            // 
-            // button35
-            // 
-            this.button35.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button35.Location = new System.Drawing.Point(129, 456);
-            this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(79, 79);
-            this.button35.TabIndex = 48;
-            this.button35.UseVisualStyleBackColor = true;
-            // 
-            // button36
-            // 
-            this.button36.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button36.Location = new System.Drawing.Point(46, 456);
-            this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(79, 79);
-            this.button36.TabIndex = 47;
-            this.button36.UseVisualStyleBackColor = true;
-            // 
-            // button37
-            // 
-            this.button37.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button37.Location = new System.Drawing.Point(702, 373);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(79, 79);
-            this.button37.TabIndex = 46;
-            this.button37.UseVisualStyleBackColor = true;
-            // 
-            // button38
-            // 
-            this.button38.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button38.Location = new System.Drawing.Point(620, 373);
-            this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(79, 79);
-            this.button38.TabIndex = 45;
-            this.button38.UseVisualStyleBackColor = true;
-            // 
-            // button39
-            // 
-            this.button39.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button39.Location = new System.Drawing.Point(542, 373);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(75, 79);
-            this.button39.TabIndex = 44;
-            this.button39.UseVisualStyleBackColor = true;
-            // 
-            // button40
-            // 
-            this.button40.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button40.Location = new System.Drawing.Point(459, 373);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(79, 79);
-            this.button40.TabIndex = 43;
-            this.button40.UseVisualStyleBackColor = true;
-            // 
-            // button41
-            // 
-            this.button41.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button41.Location = new System.Drawing.Point(377, 373);
-            this.button41.Name = "button41";
-            this.button41.Size = new System.Drawing.Size(79, 79);
-            this.button41.TabIndex = 42;
-            this.button41.UseVisualStyleBackColor = true;
-            // 
-            // button42
-            // 
-            this.button42.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button42.Location = new System.Drawing.Point(295, 373);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(79, 79);
-            this.button42.TabIndex = 41;
-            this.button42.UseVisualStyleBackColor = true;
-            // 
-            // button43
-            // 
-            this.button43.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button43.Location = new System.Drawing.Point(210, 373);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(79, 79);
-            this.button43.TabIndex = 40;
-            this.button43.UseVisualStyleBackColor = true;
-            // 
-            // button44
-            // 
-            this.button44.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button44.Location = new System.Drawing.Point(129, 373);
-            this.button44.Name = "button44";
-            this.button44.Size = new System.Drawing.Size(79, 79);
-            this.button44.TabIndex = 39;
-            this.button44.UseVisualStyleBackColor = true;
-            // 
-            // button45
-            // 
-            this.button45.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button45.Location = new System.Drawing.Point(46, 373);
-            this.button45.Name = "button45";
-            this.button45.Size = new System.Drawing.Size(79, 79);
-            this.button45.TabIndex = 38;
-            this.button45.UseVisualStyleBackColor = true;
-            this.button45.Click += new System.EventHandler(this.btn_Click);
-            // 
-            // button46
-            // 
-            this.button46.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button46.Location = new System.Drawing.Point(702, 292);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(79, 79);
-            this.button46.TabIndex = 37;
-            this.button46.UseVisualStyleBackColor = true;
-            // 
-            // button47
-            // 
-            this.button47.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button47.Location = new System.Drawing.Point(620, 292);
-            this.button47.Name = "button47";
-            this.button47.Size = new System.Drawing.Size(79, 79);
-            this.button47.TabIndex = 36;
-            this.button47.UseVisualStyleBackColor = true;
-            // 
-            // button48
-            // 
-            this.button48.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button48.Location = new System.Drawing.Point(542, 292);
-            this.button48.Name = "button48";
-            this.button48.Size = new System.Drawing.Size(75, 79);
-            this.button48.TabIndex = 35;
-            this.button48.UseVisualStyleBackColor = true;
-            // 
-            // button49
-            // 
-            this.button49.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button49.Location = new System.Drawing.Point(459, 292);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(79, 79);
-            this.button49.TabIndex = 34;
-            this.button49.UseVisualStyleBackColor = true;
-            // 
-            // button50
-            // 
-            this.button50.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button50.Location = new System.Drawing.Point(377, 292);
-            this.button50.Name = "button50";
-            this.button50.Size = new System.Drawing.Size(79, 79);
-            this.button50.TabIndex = 33;
-            this.button50.UseVisualStyleBackColor = true;
-            // 
-            // button51
-            // 
-            this.button51.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button51.Location = new System.Drawing.Point(295, 292);
-            this.button51.Name = "button51";
-            this.button51.Size = new System.Drawing.Size(79, 79);
-            this.button51.TabIndex = 32;
-            this.button51.UseVisualStyleBackColor = true;
-            // 
-            // button52
-            // 
-            this.button52.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button52.Location = new System.Drawing.Point(210, 292);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(79, 79);
-            this.button52.TabIndex = 31;
-            this.button52.UseVisualStyleBackColor = true;
-            this.button52.Click += new System.EventHandler(this.btn_Click);
-            // 
-            // button53
-            // 
-            this.button53.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button53.Location = new System.Drawing.Point(129, 292);
-            this.button53.Name = "button53";
-            this.button53.Size = new System.Drawing.Size(79, 79);
-            this.button53.TabIndex = 30;
-            this.button53.UseVisualStyleBackColor = true;
-            this.button53.Click += new System.EventHandler(this.btn_Click);
-            // 
-            // button54
-            // 
-            this.button54.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button54.Location = new System.Drawing.Point(46, 292);
-            this.button54.Name = "button54";
-            this.button54.Size = new System.Drawing.Size(79, 79);
-            this.button54.TabIndex = 29;
-            this.button54.UseVisualStyleBackColor = true;
-            this.button54.Click += new System.EventHandler(this.btn_Click);
-            // 
-            // button55
-            // 
-            this.button55.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button55.Location = new System.Drawing.Point(702, 701);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(79, 79);
-            this.button55.TabIndex = 82;
-            this.button55.UseVisualStyleBackColor = true;
-            // 
-            // button56
-            // 
-            this.button56.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button56.Location = new System.Drawing.Point(620, 701);
-            this.button56.Name = "button56";
-            this.button56.Size = new System.Drawing.Size(79, 79);
-            this.button56.TabIndex = 81;
-            this.button56.UseVisualStyleBackColor = true;
-            // 
-            // button57
-            // 
-            this.button57.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button57.Location = new System.Drawing.Point(542, 701);
-            this.button57.Name = "button57";
-            this.button57.Size = new System.Drawing.Size(75, 79);
-            this.button57.TabIndex = 80;
-            this.button57.UseVisualStyleBackColor = true;
-            // 
-            // button58
-            // 
-            this.button58.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button58.Location = new System.Drawing.Point(459, 701);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(79, 79);
-            this.button58.TabIndex = 79;
-            this.button58.UseVisualStyleBackColor = true;
-            // 
-            // button59
-            // 
-            this.button59.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button59.Location = new System.Drawing.Point(377, 701);
-            this.button59.Name = "button59";
-            this.button59.Size = new System.Drawing.Size(79, 79);
-            this.button59.TabIndex = 78;
-            this.button59.UseVisualStyleBackColor = true;
-            // 
-            // button60
-            // 
-            this.button60.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button60.Location = new System.Drawing.Point(295, 701);
-            this.button60.Name = "button60";
-            this.button60.Size = new System.Drawing.Size(79, 79);
-            this.button60.TabIndex = 77;
-            this.button60.UseVisualStyleBackColor = true;
-            // 
-            // button61
-            // 
-            this.button61.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button61.Location = new System.Drawing.Point(210, 701);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(79, 79);
-            this.button61.TabIndex = 76;
-            this.button61.UseVisualStyleBackColor = true;
-            // 
-            // button62
-            // 
-            this.button62.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button62.Location = new System.Drawing.Point(129, 701);
-            this.button62.Name = "button62";
-            this.button62.Size = new System.Drawing.Size(79, 79);
-            this.button62.TabIndex = 75;
-            this.button62.UseVisualStyleBackColor = true;
-            // 
-            // button63
-            // 
-            this.button63.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button63.Location = new System.Drawing.Point(46, 701);
-            this.button63.Name = "button63";
-            this.button63.Size = new System.Drawing.Size(79, 79);
-            this.button63.TabIndex = 74;
-            this.button63.UseVisualStyleBackColor = true;
-            // 
-            // button64
-            // 
-            this.button64.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button64.Location = new System.Drawing.Point(702, 618);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(79, 79);
-            this.button64.TabIndex = 73;
-            this.button64.UseVisualStyleBackColor = true;
-            // 
-            // button65
-            // 
-            this.button65.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button65.Location = new System.Drawing.Point(620, 618);
-            this.button65.Name = "button65";
-            this.button65.Size = new System.Drawing.Size(79, 79);
-            this.button65.TabIndex = 72;
-            this.button65.UseVisualStyleBackColor = true;
-            // 
-            // button66
-            // 
-            this.button66.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button66.Location = new System.Drawing.Point(542, 618);
-            this.button66.Name = "button66";
-            this.button66.Size = new System.Drawing.Size(75, 79);
-            this.button66.TabIndex = 71;
-            this.button66.UseVisualStyleBackColor = true;
-            // 
-            // button67
-            // 
-            this.button67.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button67.Location = new System.Drawing.Point(459, 618);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(79, 79);
-            this.button67.TabIndex = 70;
-            this.button67.UseVisualStyleBackColor = true;
-            // 
-            // button68
-            // 
-            this.button68.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button68.Location = new System.Drawing.Point(377, 618);
-            this.button68.Name = "button68";
-            this.button68.Size = new System.Drawing.Size(79, 79);
-            this.button68.TabIndex = 69;
-            this.button68.UseVisualStyleBackColor = true;
-            // 
-            // button69
-            // 
-            this.button69.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button69.Location = new System.Drawing.Point(295, 618);
-            this.button69.Name = "button69";
-            this.button69.Size = new System.Drawing.Size(79, 79);
-            this.button69.TabIndex = 68;
-            this.button69.UseVisualStyleBackColor = true;
-            // 
-            // button70
-            // 
-            this.button70.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button70.Location = new System.Drawing.Point(210, 618);
-            this.button70.Name = "button70";
-            this.button70.Size = new System.Drawing.Size(79, 79);
-            this.button70.TabIndex = 67;
-            this.button70.UseVisualStyleBackColor = true;
-            // 
-            // button71
-            // 
-            this.button71.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button71.Location = new System.Drawing.Point(129, 618);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(79, 79);
-            this.button71.TabIndex = 66;
-            this.button71.UseVisualStyleBackColor = true;
-            // 
-            // button72
-            // 
-            this.button72.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button72.Location = new System.Drawing.Point(46, 618);
-            this.button72.Name = "button72";
-            this.button72.Size = new System.Drawing.Size(79, 79);
-            this.button72.TabIndex = 65;
-            this.button72.UseVisualStyleBackColor = true;
-            // 
-            // button73
-            // 
-            this.button73.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button73.Location = new System.Drawing.Point(702, 538);
-            this.button73.Name = "button73";
-            this.button73.Size = new System.Drawing.Size(79, 79);
-            this.button73.TabIndex = 64;
-            this.button73.UseVisualStyleBackColor = true;
-            // 
-            // button74
-            // 
-            this.button74.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button74.Location = new System.Drawing.Point(620, 538);
-            this.button74.Name = "button74";
-            this.button74.Size = new System.Drawing.Size(79, 79);
-            this.button74.TabIndex = 63;
-            this.button74.UseVisualStyleBackColor = true;
-            // 
-            // button75
-            // 
-            this.button75.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button75.Location = new System.Drawing.Point(542, 538);
-            this.button75.Name = "button75";
-            this.button75.Size = new System.Drawing.Size(75, 79);
-            this.button75.TabIndex = 62;
-            this.button75.UseVisualStyleBackColor = true;
-            // 
-            // button76
-            // 
-            this.button76.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button76.Location = new System.Drawing.Point(459, 538);
-            this.button76.Name = "button76";
-            this.button76.Size = new System.Drawing.Size(79, 79);
-            this.button76.TabIndex = 61;
-            this.button76.UseVisualStyleBackColor = true;
-            // 
-            // button77
-            // 
-            this.button77.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button77.Location = new System.Drawing.Point(377, 538);
-            this.button77.Name = "button77";
-            this.button77.Size = new System.Drawing.Size(79, 79);
-            this.button77.TabIndex = 60;
-            this.button77.UseVisualStyleBackColor = true;
-            // 
-            // button78
-            // 
-            this.button78.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button78.Location = new System.Drawing.Point(295, 538);
-            this.button78.Name = "button78";
-            this.button78.Size = new System.Drawing.Size(79, 79);
-            this.button78.TabIndex = 59;
-            this.button78.UseVisualStyleBackColor = true;
-            // 
-            // button79
-            // 
-            this.button79.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button79.Location = new System.Drawing.Point(210, 538);
-            this.button79.Name = "button79";
-            this.button79.Size = new System.Drawing.Size(79, 79);
-            this.button79.TabIndex = 58;
-            this.button79.UseVisualStyleBackColor = true;
-            // 
-            // button80
-            // 
-            this.button80.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button80.Location = new System.Drawing.Point(129, 538);
-            this.button80.Name = "button80";
-            this.button80.Size = new System.Drawing.Size(79, 79);
-            this.button80.TabIndex = 57;
-            this.button80.UseVisualStyleBackColor = true;
-            // 
-            // button81
-            // 
-            this.button81.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button81.Location = new System.Drawing.Point(46, 538);
-            this.button81.Name = "button81";
-            this.button81.Size = new System.Drawing.Size(79, 79);
-            this.button81.TabIndex = 56;
-            this.button81.UseVisualStyleBackColor = true;
+            // r6c9
+            // 
+            this.r6c9.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r6c9.Location = new System.Drawing.Point(702, 455);
+            this.r6c9.Name = "r6c9";
+            this.r6c9.Size = new System.Drawing.Size(79, 79);
+            this.r6c9.TabIndex = 55;
+            this.r6c9.UseVisualStyleBackColor = true;
+            this.r6c9.Click += new System.EventHandler(this.btn_Click);
+            this.r6c9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r6c8
+            // 
+            this.r6c8.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r6c8.Location = new System.Drawing.Point(620, 455);
+            this.r6c8.Name = "r6c8";
+            this.r6c8.Size = new System.Drawing.Size(79, 79);
+            this.r6c8.TabIndex = 54;
+            this.r6c8.UseVisualStyleBackColor = true;
+            this.r6c8.Click += new System.EventHandler(this.btn_Click);
+            this.r6c8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r6c7
+            // 
+            this.r6c7.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r6c7.Location = new System.Drawing.Point(542, 455);
+            this.r6c7.Name = "r6c7";
+            this.r6c7.Size = new System.Drawing.Size(75, 79);
+            this.r6c7.TabIndex = 53;
+            this.r6c7.UseVisualStyleBackColor = true;
+            this.r6c7.Click += new System.EventHandler(this.btn_Click);
+            this.r6c7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r6c6
+            // 
+            this.r6c6.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r6c6.Location = new System.Drawing.Point(459, 455);
+            this.r6c6.Name = "r6c6";
+            this.r6c6.Size = new System.Drawing.Size(79, 79);
+            this.r6c6.TabIndex = 52;
+            this.r6c6.UseVisualStyleBackColor = true;
+            this.r6c6.Click += new System.EventHandler(this.btn_Click);
+            this.r6c6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r6c5
+            // 
+            this.r6c5.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r6c5.Location = new System.Drawing.Point(377, 455);
+            this.r6c5.Name = "r6c5";
+            this.r6c5.Size = new System.Drawing.Size(79, 79);
+            this.r6c5.TabIndex = 51;
+            this.r6c5.UseVisualStyleBackColor = true;
+            this.r6c5.Click += new System.EventHandler(this.btn_Click);
+            this.r6c5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r6c4
+            // 
+            this.r6c4.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r6c4.Location = new System.Drawing.Point(295, 455);
+            this.r6c4.Name = "r6c4";
+            this.r6c4.Size = new System.Drawing.Size(79, 79);
+            this.r6c4.TabIndex = 50;
+            this.r6c4.UseVisualStyleBackColor = true;
+            this.r6c4.Click += new System.EventHandler(this.btn_Click);
+            this.r6c4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r6c3
+            // 
+            this.r6c3.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r6c3.Location = new System.Drawing.Point(210, 455);
+            this.r6c3.Name = "r6c3";
+            this.r6c3.Size = new System.Drawing.Size(79, 79);
+            this.r6c3.TabIndex = 49;
+            this.r6c3.UseVisualStyleBackColor = true;
+            this.r6c3.Click += new System.EventHandler(this.btn_Click);
+            this.r6c3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r6c2
+            // 
+            this.r6c2.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r6c2.Location = new System.Drawing.Point(129, 455);
+            this.r6c2.Name = "r6c2";
+            this.r6c2.Size = new System.Drawing.Size(79, 79);
+            this.r6c2.TabIndex = 48;
+            this.r6c2.UseVisualStyleBackColor = true;
+            this.r6c2.Click += new System.EventHandler(this.btn_Click);
+            this.r6c2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r6c1
+            // 
+            this.r6c1.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r6c1.Location = new System.Drawing.Point(46, 455);
+            this.r6c1.Name = "r6c1";
+            this.r6c1.Size = new System.Drawing.Size(79, 79);
+            this.r6c1.TabIndex = 47;
+            this.r6c1.UseVisualStyleBackColor = true;
+            this.r6c1.Click += new System.EventHandler(this.btn_Click);
+            this.r6c1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r5c9
+            // 
+            this.r5c9.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r5c9.Location = new System.Drawing.Point(702, 373);
+            this.r5c9.Name = "r5c9";
+            this.r5c9.Size = new System.Drawing.Size(79, 79);
+            this.r5c9.TabIndex = 46;
+            this.r5c9.UseVisualStyleBackColor = true;
+            this.r5c9.Click += new System.EventHandler(this.btn_Click);
+            this.r5c9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r5c8
+            // 
+            this.r5c8.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r5c8.Location = new System.Drawing.Point(620, 373);
+            this.r5c8.Name = "r5c8";
+            this.r5c8.Size = new System.Drawing.Size(79, 79);
+            this.r5c8.TabIndex = 45;
+            this.r5c8.UseVisualStyleBackColor = true;
+            this.r5c8.Click += new System.EventHandler(this.btn_Click);
+            this.r5c8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r5c7
+            // 
+            this.r5c7.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r5c7.Location = new System.Drawing.Point(542, 373);
+            this.r5c7.Name = "r5c7";
+            this.r5c7.Size = new System.Drawing.Size(75, 79);
+            this.r5c7.TabIndex = 44;
+            this.r5c7.UseVisualStyleBackColor = true;
+            this.r5c7.Click += new System.EventHandler(this.btn_Click);
+            this.r5c7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r5c6
+            // 
+            this.r5c6.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r5c6.Location = new System.Drawing.Point(459, 373);
+            this.r5c6.Name = "r5c6";
+            this.r5c6.Size = new System.Drawing.Size(79, 79);
+            this.r5c6.TabIndex = 43;
+            this.r5c6.UseVisualStyleBackColor = true;
+            this.r5c6.Click += new System.EventHandler(this.btn_Click);
+            this.r5c6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r5c5
+            // 
+            this.r5c5.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r5c5.Location = new System.Drawing.Point(377, 373);
+            this.r5c5.Name = "r5c5";
+            this.r5c5.Size = new System.Drawing.Size(79, 79);
+            this.r5c5.TabIndex = 42;
+            this.r5c5.UseVisualStyleBackColor = true;
+            this.r5c5.Click += new System.EventHandler(this.btn_Click);
+            this.r5c5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r5c4
+            // 
+            this.r5c4.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r5c4.Location = new System.Drawing.Point(295, 373);
+            this.r5c4.Name = "r5c4";
+            this.r5c4.Size = new System.Drawing.Size(79, 79);
+            this.r5c4.TabIndex = 41;
+            this.r5c4.UseVisualStyleBackColor = true;
+            this.r5c4.Click += new System.EventHandler(this.btn_Click);
+            this.r5c4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r5c3
+            // 
+            this.r5c3.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r5c3.Location = new System.Drawing.Point(210, 373);
+            this.r5c3.Name = "r5c3";
+            this.r5c3.Size = new System.Drawing.Size(79, 79);
+            this.r5c3.TabIndex = 40;
+            this.r5c3.UseVisualStyleBackColor = true;
+            this.r5c3.Click += new System.EventHandler(this.btn_Click);
+            this.r5c3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r5c2
+            // 
+            this.r5c2.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r5c2.Location = new System.Drawing.Point(129, 373);
+            this.r5c2.Name = "r5c2";
+            this.r5c2.Size = new System.Drawing.Size(79, 79);
+            this.r5c2.TabIndex = 39;
+            this.r5c2.UseVisualStyleBackColor = true;
+            this.r5c2.Click += new System.EventHandler(this.btn_Click);
+            this.r5c2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r5c1
+            // 
+            this.r5c1.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r5c1.Location = new System.Drawing.Point(46, 373);
+            this.r5c1.Name = "r5c1";
+            this.r5c1.Size = new System.Drawing.Size(79, 79);
+            this.r5c1.TabIndex = 38;
+            this.r5c1.UseVisualStyleBackColor = true;
+            this.r5c1.Click += new System.EventHandler(this.btn_Click);
+            this.r5c1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r4c9
+            // 
+            this.r4c9.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r4c9.Location = new System.Drawing.Point(702, 292);
+            this.r4c9.Name = "r4c9";
+            this.r4c9.Size = new System.Drawing.Size(79, 79);
+            this.r4c9.TabIndex = 37;
+            this.r4c9.UseVisualStyleBackColor = true;
+            this.r4c9.Click += new System.EventHandler(this.btn_Click);
+            this.r4c9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r4c8
+            // 
+            this.r4c8.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r4c8.Location = new System.Drawing.Point(620, 292);
+            this.r4c8.Name = "r4c8";
+            this.r4c8.Size = new System.Drawing.Size(79, 79);
+            this.r4c8.TabIndex = 36;
+            this.r4c8.UseVisualStyleBackColor = true;
+            this.r4c8.Click += new System.EventHandler(this.btn_Click);
+            this.r4c8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r4c7
+            // 
+            this.r4c7.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r4c7.Location = new System.Drawing.Point(542, 292);
+            this.r4c7.Name = "r4c7";
+            this.r4c7.Size = new System.Drawing.Size(75, 79);
+            this.r4c7.TabIndex = 35;
+            this.r4c7.UseVisualStyleBackColor = true;
+            this.r4c7.Click += new System.EventHandler(this.btn_Click);
+            this.r4c7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r4c6
+            // 
+            this.r4c6.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r4c6.Location = new System.Drawing.Point(459, 292);
+            this.r4c6.Name = "r4c6";
+            this.r4c6.Size = new System.Drawing.Size(79, 79);
+            this.r4c6.TabIndex = 34;
+            this.r4c6.UseVisualStyleBackColor = true;
+            this.r4c6.Click += new System.EventHandler(this.btn_Click);
+            this.r4c6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r4c5
+            // 
+            this.r4c5.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r4c5.Location = new System.Drawing.Point(377, 292);
+            this.r4c5.Name = "r4c5";
+            this.r4c5.Size = new System.Drawing.Size(79, 79);
+            this.r4c5.TabIndex = 33;
+            this.r4c5.UseVisualStyleBackColor = true;
+            this.r4c5.Click += new System.EventHandler(this.btn_Click);
+            this.r4c5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r4c4
+            // 
+            this.r4c4.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r4c4.Location = new System.Drawing.Point(295, 292);
+            this.r4c4.Name = "r4c4";
+            this.r4c4.Size = new System.Drawing.Size(79, 79);
+            this.r4c4.TabIndex = 32;
+            this.r4c4.UseVisualStyleBackColor = true;
+            this.r4c4.Click += new System.EventHandler(this.btn_Click);
+            this.r4c4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r4c3
+            // 
+            this.r4c3.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r4c3.Location = new System.Drawing.Point(210, 292);
+            this.r4c3.Name = "r4c3";
+            this.r4c3.Size = new System.Drawing.Size(79, 79);
+            this.r4c3.TabIndex = 31;
+            this.r4c3.UseVisualStyleBackColor = true;
+            this.r4c3.Click += new System.EventHandler(this.btn_Click);
+            this.r4c3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r4c2
+            // 
+            this.r4c2.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r4c2.Location = new System.Drawing.Point(129, 292);
+            this.r4c2.Name = "r4c2";
+            this.r4c2.Size = new System.Drawing.Size(79, 79);
+            this.r4c2.TabIndex = 30;
+            this.r4c2.UseVisualStyleBackColor = true;
+            this.r4c2.Click += new System.EventHandler(this.btn_Click);
+            this.r4c2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r4c1
+            // 
+            this.r4c1.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r4c1.Location = new System.Drawing.Point(46, 292);
+            this.r4c1.Name = "r4c1";
+            this.r4c1.Size = new System.Drawing.Size(79, 79);
+            this.r4c1.TabIndex = 29;
+            this.r4c1.UseVisualStyleBackColor = true;
+            this.r4c1.Click += new System.EventHandler(this.btn_Click);
+            this.r4c1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r9c9
+            // 
+            this.r9c9.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r9c9.Location = new System.Drawing.Point(702, 701);
+            this.r9c9.Name = "r9c9";
+            this.r9c9.Size = new System.Drawing.Size(79, 79);
+            this.r9c9.TabIndex = 82;
+            this.r9c9.UseVisualStyleBackColor = true;
+            this.r9c9.Click += new System.EventHandler(this.btn_Click);
+            this.r9c9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r9c8
+            // 
+            this.r9c8.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r9c8.Location = new System.Drawing.Point(620, 701);
+            this.r9c8.Name = "r9c8";
+            this.r9c8.Size = new System.Drawing.Size(79, 79);
+            this.r9c8.TabIndex = 81;
+            this.r9c8.UseVisualStyleBackColor = true;
+            this.r9c8.Click += new System.EventHandler(this.btn_Click);
+            this.r9c8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r9c7
+            // 
+            this.r9c7.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r9c7.Location = new System.Drawing.Point(542, 701);
+            this.r9c7.Name = "r9c7";
+            this.r9c7.Size = new System.Drawing.Size(75, 79);
+            this.r9c7.TabIndex = 80;
+            this.r9c7.UseVisualStyleBackColor = true;
+            this.r9c7.Click += new System.EventHandler(this.btn_Click);
+            this.r9c7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r9c6
+            // 
+            this.r9c6.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r9c6.Location = new System.Drawing.Point(459, 701);
+            this.r9c6.Name = "r9c6";
+            this.r9c6.Size = new System.Drawing.Size(79, 79);
+            this.r9c6.TabIndex = 79;
+            this.r9c6.UseVisualStyleBackColor = true;
+            this.r9c6.Click += new System.EventHandler(this.btn_Click);
+            this.r9c6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r9c5
+            // 
+            this.r9c5.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r9c5.Location = new System.Drawing.Point(377, 701);
+            this.r9c5.Name = "r9c5";
+            this.r9c5.Size = new System.Drawing.Size(79, 79);
+            this.r9c5.TabIndex = 78;
+            this.r9c5.UseVisualStyleBackColor = true;
+            this.r9c5.Click += new System.EventHandler(this.btn_Click);
+            this.r9c5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r9c4
+            // 
+            this.r9c4.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r9c4.Location = new System.Drawing.Point(295, 701);
+            this.r9c4.Name = "r9c4";
+            this.r9c4.Size = new System.Drawing.Size(79, 79);
+            this.r9c4.TabIndex = 77;
+            this.r9c4.UseVisualStyleBackColor = true;
+            this.r9c4.Click += new System.EventHandler(this.btn_Click);
+            this.r9c4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r9c3
+            // 
+            this.r9c3.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r9c3.Location = new System.Drawing.Point(210, 701);
+            this.r9c3.Name = "r9c3";
+            this.r9c3.Size = new System.Drawing.Size(79, 79);
+            this.r9c3.TabIndex = 76;
+            this.r9c3.UseVisualStyleBackColor = true;
+            this.r9c3.Click += new System.EventHandler(this.btn_Click);
+            this.r9c3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r9c2
+            // 
+            this.r9c2.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r9c2.Location = new System.Drawing.Point(129, 701);
+            this.r9c2.Name = "r9c2";
+            this.r9c2.Size = new System.Drawing.Size(79, 79);
+            this.r9c2.TabIndex = 75;
+            this.r9c2.UseVisualStyleBackColor = true;
+            this.r9c2.Click += new System.EventHandler(this.btn_Click);
+            this.r9c2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r9c1
+            // 
+            this.r9c1.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r9c1.Location = new System.Drawing.Point(46, 701);
+            this.r9c1.Name = "r9c1";
+            this.r9c1.Size = new System.Drawing.Size(79, 79);
+            this.r9c1.TabIndex = 74;
+            this.r9c1.UseVisualStyleBackColor = true;
+            this.r9c1.Click += new System.EventHandler(this.btn_Click);
+            this.r9c1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r8c9
+            // 
+            this.r8c9.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r8c9.Location = new System.Drawing.Point(702, 618);
+            this.r8c9.Name = "r8c9";
+            this.r8c9.Size = new System.Drawing.Size(79, 79);
+            this.r8c9.TabIndex = 73;
+            this.r8c9.UseVisualStyleBackColor = true;
+            this.r8c9.Click += new System.EventHandler(this.btn_Click);
+            this.r8c9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r8c8
+            // 
+            this.r8c8.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r8c8.Location = new System.Drawing.Point(620, 618);
+            this.r8c8.Name = "r8c8";
+            this.r8c8.Size = new System.Drawing.Size(79, 79);
+            this.r8c8.TabIndex = 72;
+            this.r8c8.UseVisualStyleBackColor = true;
+            this.r8c8.Click += new System.EventHandler(this.btn_Click);
+            this.r8c8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r8c7
+            // 
+            this.r8c7.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r8c7.Location = new System.Drawing.Point(542, 618);
+            this.r8c7.Name = "r8c7";
+            this.r8c7.Size = new System.Drawing.Size(75, 79);
+            this.r8c7.TabIndex = 71;
+            this.r8c7.UseVisualStyleBackColor = true;
+            this.r8c7.Click += new System.EventHandler(this.btn_Click);
+            this.r8c7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r8c6
+            // 
+            this.r8c6.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r8c6.Location = new System.Drawing.Point(459, 618);
+            this.r8c6.Name = "r8c6";
+            this.r8c6.Size = new System.Drawing.Size(79, 79);
+            this.r8c6.TabIndex = 70;
+            this.r8c6.UseVisualStyleBackColor = true;
+            this.r8c6.Click += new System.EventHandler(this.btn_Click);
+            this.r8c6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r8c5
+            // 
+            this.r8c5.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r8c5.Location = new System.Drawing.Point(377, 618);
+            this.r8c5.Name = "r8c5";
+            this.r8c5.Size = new System.Drawing.Size(79, 79);
+            this.r8c5.TabIndex = 69;
+            this.r8c5.UseVisualStyleBackColor = true;
+            this.r8c5.Click += new System.EventHandler(this.btn_Click);
+            this.r8c5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r8c4
+            // 
+            this.r8c4.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r8c4.Location = new System.Drawing.Point(295, 618);
+            this.r8c4.Name = "r8c4";
+            this.r8c4.Size = new System.Drawing.Size(79, 79);
+            this.r8c4.TabIndex = 68;
+            this.r8c4.UseVisualStyleBackColor = true;
+            this.r8c4.Click += new System.EventHandler(this.btn_Click);
+            this.r8c4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r8c3
+            // 
+            this.r8c3.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r8c3.Location = new System.Drawing.Point(210, 618);
+            this.r8c3.Name = "r8c3";
+            this.r8c3.Size = new System.Drawing.Size(79, 79);
+            this.r8c3.TabIndex = 67;
+            this.r8c3.UseVisualStyleBackColor = true;
+            this.r8c3.Click += new System.EventHandler(this.btn_Click);
+            this.r8c3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r8c2
+            // 
+            this.r8c2.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r8c2.Location = new System.Drawing.Point(129, 618);
+            this.r8c2.Name = "r8c2";
+            this.r8c2.Size = new System.Drawing.Size(79, 79);
+            this.r8c2.TabIndex = 66;
+            this.r8c2.UseVisualStyleBackColor = true;
+            this.r8c2.Click += new System.EventHandler(this.btn_Click);
+            this.r8c2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r8c1
+            // 
+            this.r8c1.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r8c1.Location = new System.Drawing.Point(46, 618);
+            this.r8c1.Name = "r8c1";
+            this.r8c1.Size = new System.Drawing.Size(79, 79);
+            this.r8c1.TabIndex = 65;
+            this.r8c1.UseVisualStyleBackColor = true;
+            this.r8c1.Click += new System.EventHandler(this.btn_Click);
+            this.r8c1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r7c9
+            // 
+            this.r7c9.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r7c9.Location = new System.Drawing.Point(702, 538);
+            this.r7c9.Name = "r7c9";
+            this.r7c9.Size = new System.Drawing.Size(79, 79);
+            this.r7c9.TabIndex = 64;
+            this.r7c9.UseVisualStyleBackColor = true;
+            this.r7c9.Click += new System.EventHandler(this.btn_Click);
+            this.r7c9.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r7c8
+            // 
+            this.r7c8.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r7c8.Location = new System.Drawing.Point(620, 538);
+            this.r7c8.Name = "r7c8";
+            this.r7c8.Size = new System.Drawing.Size(79, 79);
+            this.r7c8.TabIndex = 63;
+            this.r7c8.UseVisualStyleBackColor = true;
+            this.r7c8.Click += new System.EventHandler(this.btn_Click);
+            this.r7c8.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r7c7
+            // 
+            this.r7c7.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r7c7.Location = new System.Drawing.Point(542, 538);
+            this.r7c7.Name = "r7c7";
+            this.r7c7.Size = new System.Drawing.Size(75, 79);
+            this.r7c7.TabIndex = 62;
+            this.r7c7.UseVisualStyleBackColor = true;
+            this.r7c7.Click += new System.EventHandler(this.btn_Click);
+            this.r7c7.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r7c6
+            // 
+            this.r7c6.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r7c6.Location = new System.Drawing.Point(459, 538);
+            this.r7c6.Name = "r7c6";
+            this.r7c6.Size = new System.Drawing.Size(79, 79);
+            this.r7c6.TabIndex = 61;
+            this.r7c6.UseVisualStyleBackColor = true;
+            this.r7c6.Click += new System.EventHandler(this.btn_Click);
+            this.r7c6.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r7c5
+            // 
+            this.r7c5.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r7c5.Location = new System.Drawing.Point(377, 538);
+            this.r7c5.Name = "r7c5";
+            this.r7c5.Size = new System.Drawing.Size(79, 79);
+            this.r7c5.TabIndex = 60;
+            this.r7c5.UseVisualStyleBackColor = true;
+            this.r7c5.Click += new System.EventHandler(this.btn_Click);
+            this.r7c5.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r7c4
+            // 
+            this.r7c4.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r7c4.Location = new System.Drawing.Point(295, 538);
+            this.r7c4.Name = "r7c4";
+            this.r7c4.Size = new System.Drawing.Size(79, 79);
+            this.r7c4.TabIndex = 59;
+            this.r7c4.UseVisualStyleBackColor = true;
+            this.r7c4.Click += new System.EventHandler(this.btn_Click);
+            this.r7c4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r7c3
+            // 
+            this.r7c3.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r7c3.Location = new System.Drawing.Point(210, 538);
+            this.r7c3.Name = "r7c3";
+            this.r7c3.Size = new System.Drawing.Size(79, 79);
+            this.r7c3.TabIndex = 58;
+            this.r7c3.UseVisualStyleBackColor = true;
+            this.r7c3.Click += new System.EventHandler(this.btn_Click);
+            this.r7c3.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r7c2
+            // 
+            this.r7c2.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r7c2.Location = new System.Drawing.Point(129, 538);
+            this.r7c2.Name = "r7c2";
+            this.r7c2.Size = new System.Drawing.Size(79, 79);
+            this.r7c2.TabIndex = 57;
+            this.r7c2.UseVisualStyleBackColor = true;
+            this.r7c2.Click += new System.EventHandler(this.btn_Click);
+            this.r7c2.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
+            // 
+            // r7c1
+            // 
+            this.r7c1.Font = new System.Drawing.Font("Calibri", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.r7c1.Location = new System.Drawing.Point(46, 538);
+            this.r7c1.Name = "r7c1";
+            this.r7c1.Size = new System.Drawing.Size(79, 79);
+            this.r7c1.TabIndex = 56;
+            this.r7c1.UseVisualStyleBackColor = true;
+            this.r7c1.Click += new System.EventHandler(this.btn_Click);
+            this.r7c1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.btnKeyDown);
             // 
             // btnNewGame
             // 
@@ -949,60 +1053,60 @@
             this.Controls.Add(this.btnNote);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnNewGame);
-            this.Controls.Add(this.button55);
-            this.Controls.Add(this.button56);
-            this.Controls.Add(this.button57);
-            this.Controls.Add(this.button58);
-            this.Controls.Add(this.button59);
-            this.Controls.Add(this.button60);
-            this.Controls.Add(this.button61);
-            this.Controls.Add(this.button62);
-            this.Controls.Add(this.button63);
-            this.Controls.Add(this.button64);
-            this.Controls.Add(this.button65);
-            this.Controls.Add(this.button66);
-            this.Controls.Add(this.button67);
-            this.Controls.Add(this.button68);
-            this.Controls.Add(this.button69);
-            this.Controls.Add(this.button70);
-            this.Controls.Add(this.button71);
-            this.Controls.Add(this.button72);
-            this.Controls.Add(this.button73);
-            this.Controls.Add(this.button74);
-            this.Controls.Add(this.button75);
-            this.Controls.Add(this.button76);
-            this.Controls.Add(this.button77);
-            this.Controls.Add(this.button78);
-            this.Controls.Add(this.button79);
-            this.Controls.Add(this.button80);
-            this.Controls.Add(this.button81);
-            this.Controls.Add(this.button28);
-            this.Controls.Add(this.button29);
-            this.Controls.Add(this.button30);
-            this.Controls.Add(this.button31);
-            this.Controls.Add(this.button32);
-            this.Controls.Add(this.button33);
-            this.Controls.Add(this.button34);
-            this.Controls.Add(this.button35);
-            this.Controls.Add(this.button36);
-            this.Controls.Add(this.button37);
-            this.Controls.Add(this.button38);
-            this.Controls.Add(this.button39);
-            this.Controls.Add(this.button40);
-            this.Controls.Add(this.button41);
-            this.Controls.Add(this.button42);
-            this.Controls.Add(this.button43);
-            this.Controls.Add(this.button44);
-            this.Controls.Add(this.button45);
-            this.Controls.Add(this.button46);
-            this.Controls.Add(this.button47);
-            this.Controls.Add(this.button48);
-            this.Controls.Add(this.button49);
-            this.Controls.Add(this.button50);
-            this.Controls.Add(this.button51);
-            this.Controls.Add(this.button52);
-            this.Controls.Add(this.button53);
-            this.Controls.Add(this.button54);
+            this.Controls.Add(this.r9c9);
+            this.Controls.Add(this.r9c8);
+            this.Controls.Add(this.r9c7);
+            this.Controls.Add(this.r9c6);
+            this.Controls.Add(this.r9c5);
+            this.Controls.Add(this.r9c4);
+            this.Controls.Add(this.r9c3);
+            this.Controls.Add(this.r9c2);
+            this.Controls.Add(this.r9c1);
+            this.Controls.Add(this.r8c9);
+            this.Controls.Add(this.r8c8);
+            this.Controls.Add(this.r8c7);
+            this.Controls.Add(this.r8c6);
+            this.Controls.Add(this.r8c5);
+            this.Controls.Add(this.r8c4);
+            this.Controls.Add(this.r8c3);
+            this.Controls.Add(this.r8c2);
+            this.Controls.Add(this.r8c1);
+            this.Controls.Add(this.r7c9);
+            this.Controls.Add(this.r7c8);
+            this.Controls.Add(this.r7c7);
+            this.Controls.Add(this.r7c6);
+            this.Controls.Add(this.r7c5);
+            this.Controls.Add(this.r7c4);
+            this.Controls.Add(this.r7c3);
+            this.Controls.Add(this.r7c2);
+            this.Controls.Add(this.r7c1);
+            this.Controls.Add(this.r6c9);
+            this.Controls.Add(this.r6c8);
+            this.Controls.Add(this.r6c7);
+            this.Controls.Add(this.r6c6);
+            this.Controls.Add(this.r6c5);
+            this.Controls.Add(this.r6c4);
+            this.Controls.Add(this.r6c3);
+            this.Controls.Add(this.r6c2);
+            this.Controls.Add(this.r6c1);
+            this.Controls.Add(this.r5c9);
+            this.Controls.Add(this.r5c8);
+            this.Controls.Add(this.r5c7);
+            this.Controls.Add(this.r5c6);
+            this.Controls.Add(this.r5c5);
+            this.Controls.Add(this.r5c4);
+            this.Controls.Add(this.r5c3);
+            this.Controls.Add(this.r5c2);
+            this.Controls.Add(this.r5c1);
+            this.Controls.Add(this.r4c9);
+            this.Controls.Add(this.r4c8);
+            this.Controls.Add(this.r4c7);
+            this.Controls.Add(this.r4c6);
+            this.Controls.Add(this.r4c5);
+            this.Controls.Add(this.r4c4);
+            this.Controls.Add(this.r4c3);
+            this.Controls.Add(this.r4c2);
+            this.Controls.Add(this.r4c1);
             this.Controls.Add(this.r3c9);
             this.Controls.Add(this.r3c8);
             this.Controls.Add(this.r3c7);
@@ -1069,60 +1173,60 @@
         private System.Windows.Forms.Button r3c3;
         private System.Windows.Forms.Button r3c2;
         private System.Windows.Forms.Button r3c1;
-        private System.Windows.Forms.Button button28;
-        private System.Windows.Forms.Button button29;
-        private System.Windows.Forms.Button button30;
-        private System.Windows.Forms.Button button31;
-        private System.Windows.Forms.Button button32;
-        private System.Windows.Forms.Button button33;
-        private System.Windows.Forms.Button button34;
-        private System.Windows.Forms.Button button35;
-        private System.Windows.Forms.Button button36;
-        private System.Windows.Forms.Button button37;
-        private System.Windows.Forms.Button button38;
-        private System.Windows.Forms.Button button39;
-        private System.Windows.Forms.Button button40;
-        private System.Windows.Forms.Button button41;
-        private System.Windows.Forms.Button button42;
-        private System.Windows.Forms.Button button43;
-        private System.Windows.Forms.Button button44;
-        private System.Windows.Forms.Button button45;
-        private System.Windows.Forms.Button button46;
-        private System.Windows.Forms.Button button47;
-        private System.Windows.Forms.Button button48;
-        private System.Windows.Forms.Button button49;
-        private System.Windows.Forms.Button button50;
-        private System.Windows.Forms.Button button51;
-        private System.Windows.Forms.Button button52;
-        private System.Windows.Forms.Button button53;
-        private System.Windows.Forms.Button button54;
-        private System.Windows.Forms.Button button55;
-        private System.Windows.Forms.Button button56;
-        private System.Windows.Forms.Button button57;
-        private System.Windows.Forms.Button button58;
-        private System.Windows.Forms.Button button59;
-        private System.Windows.Forms.Button button60;
-        private System.Windows.Forms.Button button61;
-        private System.Windows.Forms.Button button62;
-        private System.Windows.Forms.Button button63;
-        private System.Windows.Forms.Button button64;
-        private System.Windows.Forms.Button button65;
-        private System.Windows.Forms.Button button66;
-        private System.Windows.Forms.Button button67;
-        private System.Windows.Forms.Button button68;
-        private System.Windows.Forms.Button button69;
-        private System.Windows.Forms.Button button70;
-        private System.Windows.Forms.Button button71;
-        private System.Windows.Forms.Button button72;
-        private System.Windows.Forms.Button button73;
-        private System.Windows.Forms.Button button74;
-        private System.Windows.Forms.Button button75;
-        private System.Windows.Forms.Button button76;
-        private System.Windows.Forms.Button button77;
-        private System.Windows.Forms.Button button78;
-        private System.Windows.Forms.Button button79;
-        private System.Windows.Forms.Button button80;
-        private System.Windows.Forms.Button button81;
+        private System.Windows.Forms.Button r6c9;
+        private System.Windows.Forms.Button r6c8;
+        private System.Windows.Forms.Button r6c7;
+        private System.Windows.Forms.Button r6c6;
+        private System.Windows.Forms.Button r6c5;
+        private System.Windows.Forms.Button r6c4;
+        private System.Windows.Forms.Button r6c3;
+        private System.Windows.Forms.Button r6c2;
+        private System.Windows.Forms.Button r6c1;
+        private System.Windows.Forms.Button r5c9;
+        private System.Windows.Forms.Button r5c8;
+        private System.Windows.Forms.Button r5c7;
+        private System.Windows.Forms.Button r5c6;
+        private System.Windows.Forms.Button r5c5;
+        private System.Windows.Forms.Button r5c4;
+        private System.Windows.Forms.Button r5c3;
+        private System.Windows.Forms.Button r5c2;
+        private System.Windows.Forms.Button r5c1;
+        private System.Windows.Forms.Button r4c9;
+        private System.Windows.Forms.Button r4c8;
+        private System.Windows.Forms.Button r4c7;
+        private System.Windows.Forms.Button r4c6;
+        private System.Windows.Forms.Button r4c5;
+        private System.Windows.Forms.Button r4c4;
+        private System.Windows.Forms.Button r4c3;
+        private System.Windows.Forms.Button r4c2;
+        private System.Windows.Forms.Button r4c1;
+        private System.Windows.Forms.Button r9c9;
+        private System.Windows.Forms.Button r9c8;
+        private System.Windows.Forms.Button r9c7;
+        private System.Windows.Forms.Button r9c6;
+        private System.Windows.Forms.Button r9c5;
+        private System.Windows.Forms.Button r9c4;
+        private System.Windows.Forms.Button r9c3;
+        private System.Windows.Forms.Button r9c2;
+        private System.Windows.Forms.Button r9c1;
+        private System.Windows.Forms.Button r8c9;
+        private System.Windows.Forms.Button r8c8;
+        private System.Windows.Forms.Button r8c7;
+        private System.Windows.Forms.Button r8c6;
+        private System.Windows.Forms.Button r8c5;
+        private System.Windows.Forms.Button r8c4;
+        private System.Windows.Forms.Button r8c3;
+        private System.Windows.Forms.Button r8c2;
+        private System.Windows.Forms.Button r8c1;
+        private System.Windows.Forms.Button r7c9;
+        private System.Windows.Forms.Button r7c8;
+        private System.Windows.Forms.Button r7c7;
+        private System.Windows.Forms.Button r7c6;
+        private System.Windows.Forms.Button r7c5;
+        private System.Windows.Forms.Button r7c4;
+        private System.Windows.Forms.Button r7c3;
+        private System.Windows.Forms.Button r7c2;
+        private System.Windows.Forms.Button r7c1;
         private System.Windows.Forms.Button btnNewGame;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnNote;
