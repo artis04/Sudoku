@@ -423,7 +423,7 @@ namespace Sudoku
         {
             if (pencil)
             {
-                font1 = new Font("Calibri", 48, FontStyle.Bold);
+                font1 = new Font("Calibri", 48);
                 btnNote.BackColor = default(Color);
                 pencil = false;
             }
@@ -467,15 +467,11 @@ namespace Sudoku
             {
                 if (k <= 81)
                 {
-                    Console.WriteLine(c.Text);
                     Answer.Add(c.Text);
                 }
                 k++;
             }
 
-            Console.WriteLine("#########");
-            Console.WriteLine(Answer.Count);
-            Console.WriteLine(Result.Count);
 
             k = 0;
             bool incorrect = false;
@@ -495,10 +491,19 @@ namespace Sudoku
             {
                 MessageBox.Show("Congratulations, No mistakes!");
             }
-            
-            if (Answer.Equals(Result))
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            sbyte i = 0;
+            foreach (Control c in this.Controls)
             {
-                MessageBox.Show("Congratolations");
+                c.Text = "";
+                if (i >= 80)
+                {
+                    return;
+                }
+                i++;
             }
         }
     }

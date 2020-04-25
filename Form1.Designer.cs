@@ -1040,6 +1040,7 @@
             this.btnClear.TabIndex = 84;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnNote
             // 
@@ -1050,6 +1051,7 @@
             this.btnNote.Text = "Notes";
             this.btnNote.UseVisualStyleBackColor = true;
             this.btnNote.Click += new System.EventHandler(this.btnNotes);
+            this.btnNote.KeyDown += new System.Windows.Forms.KeyEventHandler(this.place);
             // 
             // btn_check
             // 
