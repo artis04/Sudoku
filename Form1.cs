@@ -18,6 +18,7 @@ namespace Sudoku
         bool pencil = false;
         Font font1 = new Font("Calibri", 48);
         string ho;
+        string difficulty = "";
         List<Button> btnLabels = new List<Button>();
         public Form1()
         {
@@ -26,6 +27,7 @@ namespace Sudoku
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            hide_level_btn(sender, e);
             pictureBox1.Image = Image.FromFile(@"Sudoku\photos\sudoku_grid.png");
             DefColor(sender, e);
             btnNote.BackColor = default(Color);
@@ -263,11 +265,35 @@ namespace Sudoku
         {
             string[] lines = File.ReadAllLines(@"sudoku\levels\levels.txt");
             List<string> Levels = new List<string> { };
+            List<string> Elevels = new List<string> { };
+            List<string> Mlevels = new List<string> { };
+            List<string> Hlevels = new List<string> { };
+            List<string> Exlevels = new List<string> { };
             bool level = false;
+            bool easy = false;
+            bool medium = false;
+            bool hard = false;
+            bool expert = false;
             foreach (string line in lines)
             {
                 if (level)
                 {
+                    if (easy)
+                    {
+                        Elevels.Add(line);
+                    }
+                    else if (medium)
+                    {
+                        Mlevels.Add(line);
+                    }
+                    else if (hard)
+                    {
+                        Hlevels.Add(line);
+                    }
+                    else if (expert)
+                    {
+                        Exlevels.Add(line);
+                    }
                     Levels.Add(line);
                     level = false;
                 }
@@ -277,13 +303,54 @@ namespace Sudoku
                     {
                         level = true;
                     }
+                    easy = false;
+                    medium = false;
+                    hard = false;
+                    expert = false;
+                    if (line.Substring(9,1) == "0")
+                    {
+                        easy = true;
+                    }
+                    else if (line.Substring(9,1) == "1")
+                    {
+                        medium = true;
+                    }
+                    else if (line.Substring(9,1) == "2")
+                    {
+                        hard = true;
+                    }
+                    else if (line.Substring(9,1) == "3")
+                    {
+                        expert = true;
+                    }
+
                 }
                 catch { }
             }
 
             // In list Levels is loaded all available levels
-            string ActiveLevel = Levels[0];
-            List<string> easy = ActiveLevel.Split(',').ToList();
+            /*string ActiveLevel = Levels[1];*/
+            string ActiveLevel;
+            Random index = new Random();
+
+            if (difficulty == "easy")
+            {
+                ActiveLevel = Elevels[index.Next(0, Elevels.Count)];
+            }
+            else if (difficulty == "medium")
+            {
+                ActiveLevel = Mlevels[index.Next(0, Mlevels.Count)];
+            }
+            else if (difficulty == "hard")
+            {
+                ActiveLevel = Hlevels[index.Next(0, Hlevels.Count)];
+            }
+            else 
+            {
+                ActiveLevel = Exlevels[index.Next(0, Exlevels.Count)];
+            }
+
+            List<string> setup = ActiveLevel.Split(',').ToList();
 
             sbyte i = 0;
             foreach (Control c in this.Controls)
@@ -291,7 +358,7 @@ namespace Sudoku
                 Button button = c as Button;
                 try
                 {
-                    c.Text = easy[i];
+                    c.Text = setup[i];
                     if (c.Text == "0")
                     {
                         c.Text = "";
@@ -307,14 +374,51 @@ namespace Sudoku
                 }
             }
         }
-
+        private void hide_level_btn(object sender, EventArgs e)
+        {
+            lvl_easy.Visible = false;
+            lvl_medium.Visible = false;
+            lvl_hard.Visible = false;
+            lvl_expert.Visible = false;
+            btnNewGame.Visible = true;
+            btnNote.Visible = true;
+            btn_check.Visible = true;
+        }
         private void btnNewGame_Click(object sender, EventArgs e)
         {
+            lvl_easy.Visible = true;
+            lvl_medium.Visible = true;
+            lvl_hard.Visible = true;
+            lvl_expert.Visible = true;
+            btnNewGame.Visible = false;
+            btnClear.Visible = false;
+            btnNote.Visible = false;
+            btn_check.Visible = false;
+        }
+
+        private void level_button(object sender, EventArgs e)
+        {
+            var button = (Button)sender;
+            if (button.Name == "lvl_easy")
+            {
+                difficulty = "easy";
+            }
+            else if (button.Name == "lvl_medium")
+            {
+                difficulty = "medium";
+            }
+            else if (button.Name == "lvl_hard")
+            {
+                difficulty = "hard";
+            }
+            else
+            {
+                difficulty = "expert";
+            }
+            hide_level_btn(sender, e);
             OpenLevels(sender, e);
             DefColor(sender, e);
         }
-
-
         private void btnNotes(object sender, EventArgs e)
         {
             if (pencil)

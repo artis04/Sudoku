@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.r1c1 = new System.Windows.Forms.Button();
             this.r1c2 = new System.Windows.Forms.Button();
@@ -114,6 +115,10 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.btnNote = new System.Windows.Forms.Button();
             this.btn_check = new System.Windows.Forms.Button();
+            this.lvl_easy = new System.Windows.Forms.Button();
+            this.lvl_medium = new System.Windows.Forms.Button();
+            this.lvl_hard = new System.Windows.Forms.Button();
+            this.lvl_expert = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -1019,7 +1024,7 @@
             // 
             // btnNewGame
             // 
-            this.btnNewGame.Location = new System.Drawing.Point(961, 12);
+            this.btnNewGame.Location = new System.Drawing.Point(961, 44);
             this.btnNewGame.Name = "btnNewGame";
             this.btnNewGame.Size = new System.Drawing.Size(168, 60);
             this.btnNewGame.TabIndex = 83;
@@ -1029,7 +1034,7 @@
             // 
             // btnClear
             // 
-            this.btnClear.Location = new System.Drawing.Point(961, 78);
+            this.btnClear.Location = new System.Drawing.Point(961, 110);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(168, 60);
             this.btnClear.TabIndex = 84;
@@ -1038,7 +1043,7 @@
             // 
             // btnNote
             // 
-            this.btnNote.Location = new System.Drawing.Point(821, 207);
+            this.btnNote.Location = new System.Drawing.Point(821, 260);
             this.btnNote.Name = "btnNote";
             this.btnNote.Size = new System.Drawing.Size(210, 120);
             this.btnNote.TabIndex = 85;
@@ -1048,13 +1053,53 @@
             // 
             // btn_check
             // 
-            this.btn_check.Location = new System.Drawing.Point(851, 386);
+            this.btn_check.Location = new System.Drawing.Point(821, 386);
             this.btn_check.Name = "btn_check";
-            this.btn_check.Size = new System.Drawing.Size(190, 136);
+            this.btn_check.Size = new System.Drawing.Size(210, 136);
             this.btn_check.TabIndex = 86;
             this.btn_check.Text = "Check answer";
             this.btn_check.UseVisualStyleBackColor = true;
             this.btn_check.Click += new System.EventHandler(this.btn_check_Click);
+            // 
+            // lvl_easy
+            // 
+            this.lvl_easy.Location = new System.Drawing.Point(961, 44);
+            this.lvl_easy.Name = "lvl_easy";
+            this.lvl_easy.Size = new System.Drawing.Size(168, 60);
+            this.lvl_easy.TabIndex = 87;
+            this.lvl_easy.Text = "Easy";
+            this.lvl_easy.UseVisualStyleBackColor = true;
+            this.lvl_easy.Click += new System.EventHandler(this.level_button);
+            // 
+            // lvl_medium
+            // 
+            this.lvl_medium.Location = new System.Drawing.Point(961, 110);
+            this.lvl_medium.Name = "lvl_medium";
+            this.lvl_medium.Size = new System.Drawing.Size(168, 60);
+            this.lvl_medium.TabIndex = 88;
+            this.lvl_medium.Text = "Medium";
+            this.lvl_medium.UseVisualStyleBackColor = true;
+            this.lvl_medium.Click += new System.EventHandler(this.level_button);
+            // 
+            // lvl_hard
+            // 
+            this.lvl_hard.Location = new System.Drawing.Point(961, 176);
+            this.lvl_hard.Name = "lvl_hard";
+            this.lvl_hard.Size = new System.Drawing.Size(168, 60);
+            this.lvl_hard.TabIndex = 89;
+            this.lvl_hard.Text = "Hard";
+            this.lvl_hard.UseVisualStyleBackColor = true;
+            this.lvl_hard.Click += new System.EventHandler(this.level_button);
+            // 
+            // lvl_expert
+            // 
+            this.lvl_expert.Location = new System.Drawing.Point(961, 242);
+            this.lvl_expert.Name = "lvl_expert";
+            this.lvl_expert.Size = new System.Drawing.Size(168, 60);
+            this.lvl_expert.TabIndex = 90;
+            this.lvl_expert.Text = "Expert";
+            this.lvl_expert.UseVisualStyleBackColor = true;
+            this.lvl_expert.Click += new System.EventHandler(this.level_button);
             // 
             // Form1
             // 
@@ -1147,8 +1192,13 @@
             this.Controls.Add(this.btnNewGame);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_check);
+            this.Controls.Add(this.lvl_expert);
+            this.Controls.Add(this.lvl_hard);
+            this.Controls.Add(this.lvl_medium);
+            this.Controls.Add(this.lvl_easy);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Sudoku";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -1243,6 +1293,10 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnNote;
         private System.Windows.Forms.Button btn_check;
+        private System.Windows.Forms.Button lvl_easy;
+        private System.Windows.Forms.Button lvl_medium;
+        private System.Windows.Forms.Button lvl_hard;
+        private System.Windows.Forms.Button lvl_expert;
     }
 }
 
